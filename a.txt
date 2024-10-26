@@ -7,3 +7,4 @@ ccc
 bbbb
 >>>>>>> parent of bf57b03 (Updata a.txt b.txt c.txt)
 cccccc
+ddddd
