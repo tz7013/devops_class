@@ -1,9 +1,3 @@
 aaaaaaaaa
-<<<<<<< HEAD
-bbbb
-aaaaa
-ccc
-=======
-bbbb
->>>>>>> parent of bf57b03 (Updata a.txt b.txt c.txt)
+bbbbbbbb
 cccccc
