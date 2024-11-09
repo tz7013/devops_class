@@ -25,10 +25,45 @@
 # fi
 
 
-mkdir f2/f3
+# mkdir f2/f3
 
-if [ $? -eq 0 ]; then
-    echo "成功"
-else
-    echo "失敗"
-fi
+# if [ $? -eq 0 ]; then
+#     echo "成功"
+# else
+#     echo "失敗"
+# fi
+
+
+# for i in {1..5};do
+#     echo $i
+# done
+
+# echo "-----------------"
+
+# for i in `ls`;do  #`ls`可以替換為$ls
+#     echo $i
+# done
+
+
+# count=1
+# while [ $count -le 5 ]; do   #-le小於等於
+#     echo "Count: $((count))"
+#     count=$((count+1))
+# done
+
+# echo "-----------------"
+
+# count=6
+# until [ $count -gt 10 ]; do   # 直到, -gt大於10
+#     echo "Count: ${count}"
+#     count=$((count+1))
+# done
+
+
+function hello() {
+    echo "Hello $1 $2"
+}
+
+hello "Amy" "okok"
+hello "Tom" "nono"
+hello "Sam"
