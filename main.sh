@@ -1,6 +1,11 @@
 #!/bin/bash
 
-read -p "Enter your name: " name
+read -p "Enter your branch: " branch
 
-# echo "Hello world"
-echo "Hello ${name}"
+if [ "$branch" == "main" ]; then
+    echo "This is production"
+elif [ "$branch" == "develop" ]; then
+    echo "This is develop"
+else
+    echo "Uknow branch"
+fi
